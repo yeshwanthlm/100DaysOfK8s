@@ -1,6 +1,6 @@
 ![Kubernetes Pods](https://github.com/yeshwanthlm/100DaysOfK8s/assets/66474973/97a8ec25-c72e-4a77-b252-f1519eb7fb32)
 
-In this video we will be learing the following:
+## In this video we will be learing the following:
 
 1. What is a pod
 2. How to create pods (both via the CLI and with YAML)
