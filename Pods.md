@@ -15,8 +15,16 @@
 11. Accessing logs from a terminated container in a pod when running multiple containers
 12. What is a sidecar and how it could be implemented
 
+## What is a pod?
+Kubernetes Pods: The smallest unit of compute
+* One or more containers
+* Containers will share the networking provided by that Pod and will communicate using localhost
+* Each Pod is assigned a unique IP address within the cluster
+* Containers in a Pod can communicate with each other using Inter-Process Communication (IPC)
+* A Pod can encapsulate an application, its dependencies, shared storage and networking into a single deployable unit.
 
- ## Imperative Commands (create, replace or delete)
+
+## Imperative Commands (create, replace or delete)
 
 In Kubernetes, imperative commands are a way to interact with the cluster by directly instructing it to perform specific operations. These commands focus on the desired outcome rather than the underlying
 configuration files or declarative state. When using imperative commands, you provide explicit instructions to create, replace, or delete.
