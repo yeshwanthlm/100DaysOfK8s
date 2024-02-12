@@ -16,6 +16,23 @@ In this video we will be learing the following:
 12. What is a sidecar and how it could be implemented
 
 
+Imperative Commands (create, replace or delete)
+
+In Kubernetes, imperative commands are a way to interact with the cluster by directly instructing it to perform specific operations. These commands focus on the desired outcome rather than the underlying
+configuration files or declarative state. When using imperative commands, you provide explicit instructions to create, replace, or delete.
+
+While imperative commands can be convenient, they may result in configuration drift if not carefully managed, as the desired state is not
+explicitly defined and tracked.
+
+
+Declarative Approach (apply)
+
+In Kubernetes, declarative commands are a preferred approach for managing the cluster's state and resources. With declarative commands, you define the desired state of your Kubernetes objects using YAML or JSON configuration.
+
+Rather than specifying individual operations, you provide a complete representation of the desired state of your resources. When applying these files, Kubernetes compares the desired state with the current state of the cluster and automatically performs the necessary operations to reconcile any differences.
+
+
+--------------------------
 Follow our tutorials here: https://www.youtube.com/@amonkincloud/videos \
 Follow my personal blog here:https://dev.to/yeshwanthlm/ \
 Follow us on Instagram: https://www.instagram.com/amonkincloud/ \
