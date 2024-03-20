@@ -59,13 +59,13 @@ aws ec2 describe-vpcs
 - Reference: https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 
 ### For MAC - Install and configure kubectl
-- Kubectl version we are using here is 1.16.8 (It may vary based on Cluster version you are planning use in AWS EKS)
+- Kubectl version we are using here is 1.29 (It may vary based on Cluster version you are planning use in AWS EKS)
 
 ```
 # Download the Package
 mkdir kubectlbinary
 cd kubectlbinary
-curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.16.8/2020-04-16/bin/darwin/amd64/kubectl
+curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.29.0/2024-01-04/bin/darwin/amd64/kubectl
 
 # Provide execute permissions
 chmod +x ./kubectl
@@ -85,11 +85,11 @@ Output: Client Version: v1.16.8-eks-e16311
 ```
 mkdir kubectlbinary
 cd kubectlbinary
-curl -o kubectl.exe https://amazon-eks.s3.us-west-2.amazonaws.com/1.16.8/2020-04-16/bin/windows/amd64/kubectl.exe
+curl.exe -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.29.0/2024-01-04/bin/windows/amd64/kubectl.exe
 ```
 - Update the system **Path** environment variable 
 ```
-C:\Users\KALYAN\Documents\kubectlbinary
+C:\Users\AMonkinCloud\Documents\kubectlbinary
 ```
 - Verify the kubectl client version
 ```
